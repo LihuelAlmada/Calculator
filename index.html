@@ -1,44 +1,42 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <script type="text/javascript" src="/js/app.js"></script>
-    <title>Calculator</title>
+    <title>LPPA-CALCULATOR</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
 </head>
 
 <body>
     <div class="wrapper">
         <div class="calculator">
-            <div class="display">
+            <div class="output">
+                <span id="resultado"></span>
             </div>
             <div class="buttons">
-                <button class="operation">%</button>
-                <button class="operation">CE</button>
-                <button class="operation">C</button>
-                <button class="operation">/</button>
-                <button class="black">7</button>
-                <button class="black">8</button>
-                <button class="black">9</button>
-                <button class="operation">X</button>
-                <button class="black">4</button>
-                <button class="black">5</button>
-                <button class="black">6</button>
-                <button class="operation">-</button>
-                <button class="black">1</button>
-                <button class="black">2</button>
-                <button class="black">3</button>
-                <button class="operation">+</button>
-                <button class="black" id="left-bot">+/-</button>
-                <button class="black">0</button>
-                <button class="black">,</button>
-                <button class="operation" id="equal">=</button>
+                <button id="num-7" class="black">7</button>
+                <button id="num-8" class="black">8</button>
+                <button id="num-9" class="black">9</button>
+                <button id="multiplicacion" class="difum">X</button>
+                <button id="num-4" class="black">4</button>
+                <button id="num-5" class="black">5</button>
+                <button id="num-6" class="black">6</button>
+                <button id="menos" class="difum">-</button>
+                <button id="num-1" class="black">1</button>
+                <button id="num-2" class="black">2</button>
+                <button id="num-3" class="black">3</button>
+                <button id="mas" class="difum">+</button>
+                <button id="ce" class="black difum">CE </button>
+                <button id="num-0" class="black">0</button>
+                <button id="igual" class="difum">=</button>
+                <button id="division" class="difum">%</button>
             </div>
-
         </div>
     </div>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
